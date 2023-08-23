@@ -9,18 +9,32 @@ html, body{
     font-family: 'Inter', sans-serif;
 }
 
+.geral{
+    display: flex;
+    flex-direction: row;
+}
+
+.direita {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #22932B;
+}
+
 .container{
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 
 .logo{
-    width: 200px;
+    width: 400px;
     margin-bottom: 16px;
 }
 
@@ -34,6 +48,8 @@ html, body{
 
 .container .header span {
     margin-top: 8px;
+    color: #22932B;
+    font-size: 30px;
 }
 
 .container form {
