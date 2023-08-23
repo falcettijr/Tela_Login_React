@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Screenshot](screenshot.png#vitrinedev)
+![Screenshot](./src/assets/screenshot.png#vitrinedev)
 
 ## Índice
 
